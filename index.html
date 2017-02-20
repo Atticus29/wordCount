@@ -9,9 +9,24 @@
   crossorigin="anonymous"></script>
   <!-- <script src="js/jquery-3.1.1.js"></script> -->
   <script src="js/scripts.js"></script>
-  <title></title>
+  <title>Word Order</title>
 </head>
 <body>
-
+  <div class="container">
+    <form id="usrInput">
+      <label for="phrase">Enter a phrase to word count</label>
+      <input type="text" id="phrase">
+      <button type="submit" class="btn" id="submitBtn">Count</button>
+    </form>
+    <div class="row">
+      <div class="col-md-2">
+        <div class="results">
+          <ul id="result-list">
+            <li><strong>Word : Count</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

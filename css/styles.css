@@ -1,0 +1,10 @@
+label{
+  display: block;
+}
+ul{
+  list-style: none;
+  text-align: center;
+}
+.results{
+  display: none;
+}
